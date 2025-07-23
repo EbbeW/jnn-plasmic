@@ -1,0 +1,27 @@
+.heeftFoto:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.img__gN6T {
+  object-fit: cover;
+  max-width: 100%;
+  width: 4rem;
+  height: 4rem;
+  max-height: 100%;
+  border-radius: 999px;
+  border: 5px solid var(--token-caJpLkEVzPDf);
+}
+.img__gN6T > picture > img {
+  object-fit: cover;
+}
+.img__pjNp {
+  object-fit: cover;
+  max-width: 100%;
+  width: 4rem;
+  height: 4rem;
+  max-height: 100%;
+  border-radius: 999px;
+  border: 5px solid var(--token-caJpLkEVzPDf);
+}
+.img__pjNp > picture > img {
+  object-fit: cover;
+}

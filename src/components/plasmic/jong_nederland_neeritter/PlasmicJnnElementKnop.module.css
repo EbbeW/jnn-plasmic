@@ -1,0 +1,113 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-sxIBApPjX-Fe);
+  justify-self: flex-start;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px 0px var(--token-zU-rP_-NwEIs);
+  border-radius: 4px;
+  padding: 4px 16px;
+  border: 2px solid var(--token-caJpLkEVzPDf);
+}
+.rootgeblokkeerd {
+  background: var(--token-2aHIw8xI62Xi);
+  pointer-events: auto;
+  cursor: not-allowed;
+  border-style: dashed;
+  border-color: var(--token-j-ZwOKbpUCqd);
+}
+.rootsecundair {
+  background: var(--token-jgohepLVeKvh);
+}
+.root:active {
+  background: var(--token-sxIBApPjX-Fe);
+  filter: brightness(130%);
+  transform: translateX(2px) translateY(2px) translateZ(0px);
+  box-shadow: 2px 2px 0px 0px var(--token-zU-rP_-NwEIs);
+}
+.root:hover {
+  background: var(--token-sxIBApPjX-Fe);
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(1deg);
+  box-shadow: 4px 4px 0px 0px var(--token-zU-rP_-NwEIs);
+  filter: brightness(130%);
+}
+.root:disabled {
+  background: var(--token-2aHIw8xI62Xi);
+  pointer-events: none;
+  cursor: not-allowed;
+  box-shadow: none;
+  border-style: dashed;
+}
+.rootgeblokkeerd:active {
+  background: var(--token-Le07ngBUPl2h);
+  cursor: not-allowed;
+  border-color: var(--token-j-ZwOKbpUCqd);
+}
+.rootgeblokkeerd:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+.rootgeblokkeerd:hover {
+  background: var(--token-2aHIw8xI62Xi);
+  cursor: not-allowed;
+}
+.rootsecundair:hover {
+  background: var(--token-jgohepLVeKvh);
+}
+.rootsecundair:active {
+  background: var(--token-jgohepLVeKvh);
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-decoration-line: none;
+  text-align: center;
+  font-weight: 700;
+  color: var(--token-jgohepLVeKvh);
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 24px;
+  font-family: var(--token-MAwYLXD7SX_a);
+  filter: drop-shadow(1px 1px 0px #000000);
+  text-transform: capitalize;
+  min-width: 0;
+}
+.textgeblokkeerd {
+  color: var(--token-j-ZwOKbpUCqd);
+  text-decoration-line: line-through;
+}
+.textsecundair {
+  color: var(--token-sxIBApPjX-Fe);
+}
+.root:active .text {
+  color: var(--token-jgohepLVeKvh);
+  font-weight: 700;
+}
+.root:hover .text {
+  color: var(--token-jgohepLVeKvh);
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+}
+.root:disabled .text {
+  color: var(--token-j-ZwOKbpUCqd);
+  text-decoration-line: line-through;
+}
+.rootgeblokkeerd:active .textgeblokkeerd {
+  color: var(--token-j-ZwOKbpUCqd);
+}
+.rootgeblokkeerd:hover .textgeblokkeerd {
+  color: var(--token-j-ZwOKbpUCqd);
+}
+.rootsecundair:hover .textsecundair {
+  color: var(--token-sxIBApPjX-Fe);
+}
+.rootsecundair:active .textsecundair {
+  color: var(--token-sxIBApPjX-Fe);
+}

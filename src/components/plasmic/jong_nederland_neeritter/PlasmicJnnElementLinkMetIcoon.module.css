@@ -1,0 +1,122 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: 48px;
+  max-width: 100%;
+  background: var(--token-OkEuylL3uhyD);
+  box-shadow: 4px 4px 0px 0px #00000080;
+  position: relative;
+  color: var(--token-41VRhDKfihhY);
+  text-decoration-line: none;
+  font-weight: 800;
+  transition-property: all;
+  transition-duration: 0.25s;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(2deg);
+  max-height: 48px;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  border-radius: 4px;
+  padding: 4px 8px 4px 4px;
+  border-width: 0px;
+  border-color: var(--token-caJpLkEVzPDf);
+}
+@media (min-width: 0px) and (max-width: 1000px) {
+  .root {
+    transform: none;
+    height: 5rem;
+  }
+}
+.rootkleur_oranje {
+  background: var(--token-fsZw4a8aeOXR);
+}
+.rootkleur_geel {
+  background: var(--token-bTrn1wM5THa9);
+}
+.rootkleur_roze {
+  background: var(--token-jhvf5ofKGSju);
+}
+.root:hover {
+  background: var(--token-jgohepLVeKvh);
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(4deg);
+  box-shadow: 4px 4px 0px 0px #00000080;
+  border: 2px solid var(--token-caJpLkEVzPDf);
+}
+.root:active {
+  text-decoration-line: underline;
+  filter: brightness(75%) blur(0px);
+  box-shadow: 2px 2px 0px 0px #00000080;
+  transform: translateX(2px) translateY(2px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(2deg);
+  border-width: 2px;
+  border-style: solid;
+}
+@media (min-width: 0px) and (max-width: 1000px) {
+  .root:hover {
+    transform: none;
+  }
+}
+.rootkleur_oranje:hover {
+  background: var(--token-41VRhDKfihhY);
+}
+.rootkleur_geel:hover {
+  background: var(--token-41VRhDKfihhY);
+}
+.rootkleur_roze:hover {
+  background: var(--token-41VRhDKfihhY);
+}
+.slotTargetIcoon {
+  color: var(--token-jgohepLVeKvh);
+}
+.slotTargetIcoonkleur_groen {
+  color: var(--token-jgohepLVeKvh);
+}
+.root:hover .slotTargetIcoon {
+  color: var(--token-OkEuylL3uhyD);
+}
+.rootkleur_oranje:hover .slotTargetIcoonkleur_oranje {
+  color: var(--token-fsZw4a8aeOXR);
+}
+.rootkleur_geel:hover .slotTargetIcoonkleur_geel {
+  color: var(--token-bTrn1wM5THa9);
+}
+.rootkleur_roze:hover .slotTargetIcoonkleur_roze {
+  color: var(--token-jhvf5ofKGSju);
+}
+.svg__ss4GM {
+  object-fit: cover;
+  max-width: 100%;
+  width: auto;
+  height: 90%;
+  align-self: center;
+}
+.text {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  font-weight: 800;
+  color: var(--token-caJpLkEVzPDf);
+  text-transform: lowercase;
+  font-size: 24px;
+  margin-left: 2px;
+  text-decoration-line: none;
+}
+.root:hover .text {
+  text-decoration-line: underline;
+}
+.rootkleur_groen:hover .textkleur_groen {
+  color: var(--token-OkEuylL3uhyD);
+}
+.rootkleur_oranje:hover .textkleur_oranje {
+  color: var(--token-fsZw4a8aeOXR);
+}
+.rootkleur_geel:hover .textkleur_geel {
+  color: var(--token-bTrn1wM5THa9);
+}
+.rootkleur_roze:hover .textkleur_roze {
+  color: var(--token-jhvf5ofKGSju);
+}

@@ -1,0 +1,11 @@
+.root {
+  object-fit: contain;
+  max-width: 95vw;
+  width: auto;
+  height: auto;
+  max-height: 80vh;
+  position: relative;
+}
+.root > picture > img {
+  object-fit: contain;
+}
